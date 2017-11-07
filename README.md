@@ -1,13 +1,13 @@
 # Detecting the presence of clouds using satellite image data
 
 ## Task
-- Modeling of cloud detection in the polar regions based on radiancesrecorded automatically by the MISR sensor aboard the NASA satellite Terr
+- Modeling cloud detection in polar regions based on radiances recorded automatically by the MISR sensor aboard the NASA satellite Terr
 
 ## Data
 - 3 satellite images
 - “Expert labels” used for model training for each point in image
 - Features
-    - NDAI, SD, CORR (features based on subject knowledge, see Yu2008) 
+    - NDAI, SD, CORR (features based on subject knowledge, see Yu2008.pdf) 
     - Radiance angles (DF, CF, BF, AF, AN, see http://www-misr.jpl.nasa.gov/) 
    
 ## Data Processing
