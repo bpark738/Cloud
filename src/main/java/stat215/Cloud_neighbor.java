@@ -13,8 +13,6 @@ import org.datavec.api.records.reader.RecordReader;
 import org.datavec.api.split.FileSplit;
 import org.deeplearning4j.datasets.datavec.RecordReaderMultiDataSetIterator;
 import org.deeplearning4j.nn.conf.layers.OutputLayer;
-import org.nd4j.linalg.dataset.DataSet;
-import org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction;
 import org.deeplearning4j.eval.Evaluation;
 import org.nd4j.linalg.dataset.api.iterator.MultiDataSetIterator;
 import org.nd4j.linalg.dataset.api.MultiDataSet;
@@ -39,52 +37,63 @@ public class Cloud_neighbor {
 
         final String dirTrain  = "/neighborTrain/";
         final String dirTest  = "/neighborTest/";
+        final String crossValSet = "1";
 
         RecordReader rrTrain1 = new CSVRecordReader(1);
-        rrTrain1.initialize(new FileSplit(new File(baseDir + dirTrain + "/n1/1.csv")));
+        rrTrain1.initialize(new FileSplit(new File(baseDir + dirTrain + "/n1/" + crossValSet + ".csv")));
 
         RecordReader rrTrain2 = new CSVRecordReader(1);
-        rrTrain2.initialize(new FileSplit(new File(baseDir + dirTrain + "/n2/1.csv")));
+        rrTrain2.initialize(new FileSplit(new File(baseDir + dirTrain + "/n2/" + crossValSet + ".csv")));
 
         RecordReader rrTrain3 = new CSVRecordReader(1);
-        rrTrain3.initialize(new FileSplit(new File(baseDir + dirTrain + "/n3/1.csv")));
+        rrTrain3.initialize(new FileSplit(new File(baseDir + dirTrain + "/n3/" + crossValSet + ".csv")));
 
         RecordReader rrTrain4 = new CSVRecordReader(1);
-        rrTrain4.initialize(new FileSplit(new File(baseDir + dirTrain + "/n4/1.csv")));
+        rrTrain4.initialize(new FileSplit(new File(baseDir + dirTrain + "/n4/" + crossValSet + ".csv")));
+
+        RecordReader rrTrain5 = new CSVRecordReader(1);
+        rrTrain5.initialize(new FileSplit(new File(baseDir + dirTrain + "/n5/" + crossValSet + ".csv")));
 
         MultiDataSetIterator trainIter = new RecordReaderMultiDataSetIterator.Builder(batchSize)
                 .addReader("rr1",rrTrain1)
                 .addReader("rr2",rrTrain2)
                 .addReader("rr3",rrTrain3)
                 .addReader("rr4",rrTrain4)
+                .addReader("rr5",rrTrain5)
                 .addInput("rr1", 1, 8)
                 .addInput("rr2", 0, 7)
                 .addInput("rr3", 0, 7)
                 .addInput("rr4", 0, 7)
+                .addInput("rr5", 0, 7)
                 .addOutputOneHot("rr1", 0, 2)
                 .build();
 
         RecordReader rrTest1 = new CSVRecordReader(1);
-        rrTest1.initialize(new FileSplit(new File(baseDir + dirTest + "/n1/1.csv")));
+        rrTest1.initialize(new FileSplit(new File(baseDir + dirTest + "/n1/" + crossValSet + ".csv")));
 
         RecordReader rrTest2 = new CSVRecordReader(1);
-        rrTest2.initialize(new FileSplit(new File(baseDir + dirTest + "/n2/1.csv")));
+        rrTest2.initialize(new FileSplit(new File(baseDir + dirTest + "/n2/" + crossValSet + ".csv")));
 
         RecordReader rrTest3 = new CSVRecordReader(1);
-        rrTest3.initialize(new FileSplit(new File(baseDir + dirTest + "/n3/1.csv")));
+        rrTest3.initialize(new FileSplit(new File(baseDir + dirTest + "/n3/" + crossValSet + ".csv")));
 
         RecordReader rrTest4 = new CSVRecordReader(1);
-        rrTest4.initialize(new FileSplit(new File(baseDir + dirTest + "/n4/1.csv")));
+        rrTest4.initialize(new FileSplit(new File(baseDir + dirTest + "/n4/" + crossValSet + ".csv")));
+
+        RecordReader rrTest5 = new CSVRecordReader(1);
+        rrTest5.initialize(new FileSplit(new File(baseDir + dirTest + "/n5/" + crossValSet + ".csv")));
 
         MultiDataSetIterator testIter = new RecordReaderMultiDataSetIterator.Builder(batchSize)
                 .addReader("rr1",rrTest1)
                 .addReader("rr2",rrTest2)
                 .addReader("rr3",rrTest3)
                 .addReader("rr4",rrTest4)
+                .addReader("rr5",rrTest5)
                 .addInput("rr1", 1, 8)
                 .addInput("rr2", 0, 7)
                 .addInput("rr3", 0, 7)
                 .addInput("rr4", 0, 7)
+                .addInput("rr5", 0, 7)
                 .addOutputOneHot("rr1", 0, 2)
                 .build();
 
@@ -94,7 +103,7 @@ public class Cloud_neighbor {
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
                 .updater(Updater.ADAM)
                 .graphBuilder()
-                .addInputs("input1", "input2", "input3", "input4")
+                .addInputs("input1", "input2", "input3", "input4", "input5")
                 .addLayer("L1", new DenseLayer.Builder()
                         .weightInit(WeightInit.XAVIER)
                         .activation(Activation.RELU)
@@ -115,24 +124,29 @@ public class Cloud_neighbor {
                         .activation(Activation.RELU)
                         .nIn(8).nOut(50)
                         .build(), "input4")
-                .addVertex("merge", new MergeVertex(), "L1", "L2", "L3", "L4")
                 .addLayer("L5", new DenseLayer.Builder()
                         .weightInit(WeightInit.XAVIER)
                         .activation(Activation.RELU)
-                        .nIn(200).nOut(100).build(), "merge")
+                        .nIn(8).nOut(50)
+                        .build(), "input5")
+                .addVertex("merge", new MergeVertex(), "L1", "L2", "L3", "L4", "L5")
+                .addLayer("L6", new DenseLayer.Builder()
+                        .weightInit(WeightInit.XAVIER)
+                        .activation(Activation.RELU)
+                        .nIn(250).nOut(125).build(), "merge")
                 .addLayer("out", new OutputLayer.Builder()
                         .lossFunction(LossFunctions.LossFunction.MCXENT)
                         .weightInit(WeightInit.XAVIER)
                         .activation(Activation.SOFTMAX)
-                        .nIn(100)
-                        .nOut(2).build(), "L5")
+                        .nIn(125)
+                        .nOut(2).build(), "L6")
                 .setOutputs("out")
                 .pretrain(false).backprop(true)
                 .build();
 
         ComputationGraph model = new ComputationGraph(conf);
 
-        for ( int n = 0; n < 1; n++) {
+        for ( int n = 0; n < 10; n++) {
             System.out.println("Epoch number: " + n );
             model.fit( trainIter );
         }

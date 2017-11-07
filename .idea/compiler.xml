@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Cloud" />
         <module name="physionet" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Cloud" target="1.8" />
       <module name="physionet" target="1.8" />
     </bytecodeTargetLevel>
   </component>

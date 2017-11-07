@@ -21,6 +21,9 @@ import org.deeplearning4j.eval.Evaluation;
 import org.nd4j.linalg.dataset.DataSet;
 
 import java.io.File;
+import org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction;
+import org.nd4j.linalg.lossfunctions.LossFunctions;
+import org.deeplearning4j.nn.conf.layers.RBM;
 
 /**
  * Created by Briton on 11/2/17.
@@ -39,12 +42,13 @@ public class Cloud {
         int numOutputs = 2;
         int numHiddenNodes = 50;
 
-        final String filenameTrain  = "/train/1.csv";
-        final String filenameTest  = "/test/1.csv";
+        final String crossValSet = "1";
+        final String filenameTrain  = "/train/" + crossValSet + ".csv";
+        final String filenameTest  = "/test/"  + crossValSet + ".csv";
 
-        RecordReader rr = new CSVRecordReader(1);
-        rr.initialize(new FileSplit(new File(baseDir + filenameTrain)));
-        DataSetIterator trainIter = new RecordReaderDataSetIterator(rr, batchSize,0,2);
+        RecordReader rrTrain = new CSVRecordReader(1);
+        rrTrain.initialize(new FileSplit(new File(baseDir + filenameTrain)));
+        DataSetIterator trainIter = new RecordReaderDataSetIterator(rrTrain, batchSize,0,2);
 
         RecordReader rrTest = new CSVRecordReader(1);
         rrTest.initialize(new FileSplit(new File(baseDir + filenameTest)));
@@ -64,9 +68,10 @@ public class Cloud {
                         .weightInit(WeightInit.XAVIER)
                         .activation(Activation.SOFTMAX)
                         .nIn(numHiddenNodes).nOut(numOutputs).build())
-                .pretrain(false).backprop(true).build();
+                .pretrain(true).backprop(true).build();
 
         MultiLayerNetwork model = new MultiLayerNetwork(conf);
+
 
         for ( int n = 0; n < nEpochs; n++) {
             System.out.println("Epoch number: " + n );
@@ -84,7 +89,6 @@ public class Cloud {
         }
         testIter.reset();
 
-        //Print the evaluation statistics
         System.out.println(eval.stats());
 
         ROC roc = new ROC();

@@ -1,7 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57b93220-ec56-4ba0-89fc-abb7fbfae73b" name="Default" comment="" />
+    <list default="true" id="57b93220-ec56-4ba0-89fc-abb7fbfae73b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stat215/CloudPreTrain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/stat215/Cloud.java" afterPath="$PROJECT_DIR$/src/main/java/stat215/Cloud.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/stat215/Cloud_neighbor.java" afterPath="$PROJECT_DIR$/src/main/java/stat215/Cloud_neighbor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n1/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n2/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n3/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTest/n4/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n1/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n2/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n3/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/neighborTrain/n4/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/test/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/1.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/2.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/3.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/4.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/5.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/6.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/7.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/8.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/train/9.csv" afterPath="$PROJECT_DIR$/src/main/resources/train/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/1.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/2.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/3.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/4.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/5.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/6.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/7.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/8.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n1/9.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n1/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/1.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/2.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/3.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/4.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/5.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/6.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/7.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/8.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n2/9.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n2/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/1.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/2.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/3.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/4.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/5.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/6.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/7.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/8.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n3/9.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n3/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/1.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/2.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/3.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/4.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/5.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/6.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/7.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/8.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTest/n4/9.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTest/n4/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/1.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/2.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/3.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/4.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/5.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/6.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/7.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/8.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n1/9.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n1/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/1.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/2.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/3.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/4.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/5.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/6.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/7.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/8.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n2/9.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n2/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/1.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/2.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/3.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/4.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/5.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/6.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/7.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/8.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n3/9.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n3/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/1.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/2.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/3.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/4.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/5.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/6.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/7.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/8.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/neighborTrain/n4/9.csv" afterPath="$PROJECT_DIR$/target/classes/neighborTrain/n4/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/1.csv" afterPath="$PROJECT_DIR$/target/classes/test/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/2.csv" afterPath="$PROJECT_DIR$/target/classes/test/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/3.csv" afterPath="$PROJECT_DIR$/target/classes/test/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/4.csv" afterPath="$PROJECT_DIR$/target/classes/test/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/5.csv" afterPath="$PROJECT_DIR$/target/classes/test/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/6.csv" afterPath="$PROJECT_DIR$/target/classes/test/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/7.csv" afterPath="$PROJECT_DIR$/target/classes/test/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/8.csv" afterPath="$PROJECT_DIR$/target/classes/test/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/9.csv" afterPath="$PROJECT_DIR$/target/classes/test/9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/1.csv" afterPath="$PROJECT_DIR$/target/classes/train/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/2.csv" afterPath="$PROJECT_DIR$/target/classes/train/2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/3.csv" afterPath="$PROJECT_DIR$/target/classes/train/3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/4.csv" afterPath="$PROJECT_DIR$/target/classes/train/4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/5.csv" afterPath="$PROJECT_DIR$/target/classes/train/5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/6.csv" afterPath="$PROJECT_DIR$/target/classes/train/6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/7.csv" afterPath="$PROJECT_DIR$/target/classes/train/7.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/8.csv" afterPath="$PROJECT_DIR$/target/classes/train/8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/train/9.csv" afterPath="$PROJECT_DIR$/target/classes/train/9.csv" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +203,8 @@
       <file leaf-file-name="Cloud.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/stat215/Cloud.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+            <state relative-caret-position="315">
+              <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -26,20 +213,8 @@
       <file leaf-file-name="Cloud_neighbor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stat215/Cloud_neighbor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="52" column="78" lean-forward="false" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+            <state relative-caret-position="210">
+              <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -66,7 +241,11 @@
       <find>physionet</find>
       <find>Briton</find>
       <find>Epoch</find>
+      <find>pre</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -92,17 +271,19 @@
         <option value="$PROJECT_DIR$/src/main/java/stat215/cloud.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/stat215/CloudPreTrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/stat215/Cloud.java" />
         <option value="$PROJECT_DIR$/src/main/java/stat215/Cloud_neighbor.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="31" />
+    <option name="x" value="61" />
+    <option name="y" value="28" />
     <option name="width" value="1183" />
     <option name="height" value="734" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -118,8 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -179,6 +358,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cloud">
+  <component name="RunManager" selected="Application.CloudPreTrain">
     <configuration default="false" name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -213,26 +394,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ai.skymind.training.exercises.Ex4" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="physionet" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UCISequenceClassificationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ai.skymind.training.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ai.skymind.training.exercises.UCISequenceClassificationExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -296,6 +457,26 @@
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Cloud" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CloudPreTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="stat215.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="stat215.CloudPreTrain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -513,18 +694,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Ex4" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UCISequenceClassificationExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.cloud" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Cloud" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Cloud_neighbor" />
+      <item index="1" class="java.lang.String" itemvalue="Application.cloud" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Cloud" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Cloud_neighbor" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CloudPreTrain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Cloud" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Cloud_neighbor" />
-        <item index="2" class="java.lang.String" itemvalue="Application.cloud" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Ex4" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UCISequenceClassificationExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CloudPreTrain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Cloud" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Cloud_neighbor" />
+        <item index="3" class="java.lang.String" itemvalue="Application.cloud" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Ex4" />
       </list>
     </recent_temporary>
   </component>
@@ -547,25 +728,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="31" width="1183" height="734" extended-state="0" />
+    <frame x="61" y="28" width="1183" height="734" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16483517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -611,16 +793,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/stat215/Cloud_neighbor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="52" column="78" lean-forward="false" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -641,9 +813,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -675,9 +845,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -799,14 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-nn/0.9.1/deeplearning4j-nn-0.9.1.jar!/org/deeplearning4j/datasets/iterator/AsyncMultiDataSetIterator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -821,20 +981,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stat215/CloudPreTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="93" column="41" lean-forward="false" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stat215/Cloud_neighbor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="52" column="78" lean-forward="false" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stat215/Cloud.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+        <state relative-caret-position="315">
+          <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
           <folding />
         </state>
       </provider>
